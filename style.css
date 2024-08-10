@@ -1,0 +1,142 @@
+/*Celular*/
+
+@media screen and (max-width: 600px){
+    .bloco{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+    }
+
+    h1{
+        font-size: 24px; 
+        font-family: "Baloo 2", sans-serif;
+        font-weight: 800;
+        text-align: center;
+        color: #2C3E50;
+    }
+
+    p{
+        font-size: 14px;
+        font-family: "Baloo 2", sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    button{
+        font-size: 22px;
+        width: 380px;
+        font-family: "Baloo 2", sans-serif;
+        font-weight: 700;
+        background-color: #F9D266;
+        border-radius: 100px;
+        padding: 16px 0px 16px 0px;
+        color: white;
+        margin-top: 20px;
+        
+    }
+
+    label{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "Baloo 2", sans-serif;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+
+    input{
+        border-radius: 12px;
+        border: 3px;
+        border-color: black;
+        padding: 16px;
+        width: 300px;
+        height: 48px;
+    }
+
+    input::placeholder{
+        color: black;
+    }
+
+    img{
+        width: 180px;
+        height: 108px;
+    }
+}
+
+/*Tablet*/
+
+@media screen and (min-width:768px) and (max-width:1200px){
+    .bloco{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+    }
+
+    h1{
+        font-size: 32px; 
+        font-family: "Baloo 2", sans-serif;
+        font-weight: 800;
+        text-align: center;
+        color: #2C3E50;
+    }
+
+    p{
+        font-size: 16px;
+        font-family: "Baloo 2", sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    button{
+        font-size: 14px;
+        width: 380px;
+        font-family: "Baloo 2", sans-serif;
+        font-weight: 700;
+        background-color: #F9D266;
+        border-radius: 100px;
+        padding: 16px 0px 16px 0px;
+        color: white;
+        margin-top: 20px;
+        border-color: white;
+        
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 16px 0px 16px 0px;
+    }
+
+    label{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "Baloo 2", sans-serif;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    input{
+        border-radius: 12px;
+        border: 3px;
+        border-color: black;
+        padding: 16px;
+        width: 300px;
+        height: 48px;
+    }
+
+    input::placeholder{
+        color: black;
+    }
+
+    img{
+        width: 240px;
+        height: 144px;
+    }
+}
